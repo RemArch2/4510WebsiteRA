@@ -62,7 +62,7 @@ nav {
 /* Header / Hero Section with Background Image */
 header {
     /* Stock Image: Modern Office Architecture */
-    background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+      background-image: url('images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh; 
