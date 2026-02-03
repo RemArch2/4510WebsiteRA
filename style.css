@@ -1,1 +1,135 @@
+/* Color Palette Variables */
+:root {
+    --primary-blue: #2c3e50;    /* Dark Slate Blue */
+    --accent-blue: #3498db;     /* Brighter Blue for buttons/links */
+    --light-gray: #ecf0f1;      /* Background Gray */
+    --dark-gray: #34495e;       /* Text Color */
+    --white: #ffffff;
+}
 
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-gray);
+    background-color: var(--white);
+}
+
+/* Navigation */
+nav {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Header / Hero Section */
+header {
+    background-color: var(--light-gray);
+    height: 80vh; /* Takes up 80% of the screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--dark-gray);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent-blue);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--primary-blue);
+}
+
+/* Sections */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--accent-blue);
+    display: inline-block;
+}
+
+.gray-bg {
+    background-color: var(--light-gray);
+    padding: 40px 0;
+}
+
+/* Contact List */
+.contact-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
