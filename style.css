@@ -9,6 +9,10 @@
     --shadow: 0 20px 60px rgba(24, 33, 52, 0.12);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Reset */
 * {
     margin: 0;
